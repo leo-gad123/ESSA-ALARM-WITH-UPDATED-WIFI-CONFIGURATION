@@ -9,7 +9,7 @@ void setup() {
   
   wm.resetSettings();//force config portal
 
-  wm.autoConnect("NodeMCU_Config");
+  wm.autoConnect("ESSA_Alarm");
 
   Serial.println("WiFi Connected!");
   Serial.print("IP: ");
